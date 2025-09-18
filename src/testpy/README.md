@@ -1,6 +1,5 @@
 # testpy
 ## Purpose
-A brief description of what this component does.
-
+Description of project.
 ## Build Instructions
-How to build and run this specific component.
+Build Instructions.

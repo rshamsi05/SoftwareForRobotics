@@ -33,10 +33,10 @@ mkdir -p $PROJECT_DIR
 # Create a basic README for the component
 echo "# $PROJECT_NAME" > $PROJECT_DIR/README.md
 echo "## Purpose" >> $PROJECT_DIR/README.md
-echo "A brief description of what this component does." >> $PROJECT_DIR/README.md
+echo "Description of project." >> $PROJECT_DIR/README.md
 echo "" >> $PROJECT_DIR/README.md
 echo "## Build Instructions" >> $PROJECT_DIR/README.md
-echo "How to build and run this specific component." >> $PROJECT_DIR/README.md
+echo "Build Instructions." >> $PROJECT_DIR/README.md
 
 # Create language-specific starter files
 case $LANGUAGE in
