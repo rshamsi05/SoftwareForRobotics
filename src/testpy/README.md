@@ -1,5 +1,5 @@
 # testpy
 ## Purpose
 Description of project.
-## Build Instructions
+## Build Instruction
 Build Instructions.
