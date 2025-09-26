@@ -1,6 +1,13 @@
 #include <iostream>
 
+/*
+    example comment
+    
+*/
+
 int main() {
-    std::cout << "Hello from cppCoding!\\n";
+    int x {5};
+    int a {};
+    std::cout << a;
     return 0;
 }
