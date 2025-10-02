@@ -40,7 +40,37 @@ __Initialization__ is the process of specifying an initial value for ana object 
 | Default-initialization | int x; | In most cases, leaves variable with indeterminate value |
 | Copy-initialization | int x = 5; |  |
 | Direct-initialization | int x ( 5 ); |  |
-| Direct-list-initialization | int x { 5 }; | Narrowing conversions disallowed |
+| Direct-list-initialization | int x { 5 }; | Narrowing conversions disallowed(Preffered Initialization) |
 | Copy-list-initializtion | int x = { 5 }; | Narrowing conversions disallowed  |
 | Value-initialization | int x {}; | Usually performs zero-initialization |
 
+
+### Input and Output
+std::cout and `operator<<` allows us to output the result of an expression to the console\
+std::endl outputs a newline character, forcing console cursor to move to the next line and flush any pending output to the console\
+std::cin and the `operator>>` allows us to get a value from the keyboard\
+
+### Unitialized Variables and Undefined Behavior
+Unitialized variable: a variable that has not been given a value\
+Undefined behavior: result of an uninitialized variable
+
+### Keywords
+set of reserved words that have special meaning in the language and may not be used as variable names
+
+### Literals
+Literal constant: a fixed value inserted directly into the source code
+
+### Operations and Operands
+Operation: process involving zero or more inputs\
+Operands: inputs used in an operation\
+Types of Operators\
+1. Unary: takes 1 operand
+1. Binary: takes 2 operands
+1. Ternary: takes 3 operands
+1. Nullary: takes 0 operands
+
+### Expressions
+Expression: sequence of literals, variables, operators, and function calls that are evaluated to produce a single output\
+Evaluation: calculation of the output value\
+Result: value produced from the expression\
+Expression statement: expression that has been turned into a statement by placing a semicolon at the end of it
