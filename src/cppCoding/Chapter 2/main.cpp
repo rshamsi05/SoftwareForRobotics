@@ -36,6 +36,12 @@ int doubleNumber(int num){
     return num * 2;
 }
 
+//function from testFunction.cpp
+int testFunction(int a, int b);
+
+//function from input.cpp
+int getInteger();
+
 int main(){
     // std::cout << "Starting point" << '\n';
     funcB(7);
@@ -43,9 +49,12 @@ int main(){
     // int num {getValueFromUser()};
     // std::cout << " doubled is: " << num * 2 << '\n';
     // std::cout << "The sum of 10 and 5 is: " << sum(mult(2,5),5) << "\n";
-    std::cout << "Please enter a number: " << '\n';
-    int input {};
-    std::cin >> input;
-    std::cout << "Double of " << input << " is: "  << doubleNumber(input) << '\n';
+    // std::cout << "Please enter a number: " << '\n';
+    // int input {};
+    // std::cin >> input;
+    int x { getInteger() };
+    int y { getInteger() };
+    std::cout << x << " + " << y << " is " << x + y << '\n';
+    return 0;
     //return 0;
 }
